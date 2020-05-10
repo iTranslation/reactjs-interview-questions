@@ -2,115 +2,115 @@
 
 > Click :star:if you like the project. Pull Request are highly appreciated. Follow me [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates.
 
-## Downloading PDF/Epub formats
+## 下载 PDF/Epub 文件
 
-You can download the PDF and Epub version of this repository from the latest run on the [actions tab](https://github.com/sudheerj/reactjs-interview-questions/actions).
+您可以从[actions tab](https://github.com/sudheerj/reactjs-interview-questions/actions)上的最新运行中下载此仓库的PDF和Epub版本。
 
-### Table of Contents
+### 目录
 
 | No. | Questions |
 | --- | --------- |
 |   | **Core React** |
-|1  | [What is React?](#what-is-react) |
-|2  | [What are the major features of React?](#what-are-the-major-features-of-react) |
-|3  | [What is JSX?](#what-is-jsx) |
-|4  | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component) |
-|5  | [How to create components in React?](#how-to-create-components-in-react) |
-|6  | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component) |
-|7  | [What are Pure Components?](#what-are-pure-components) |
-|8  | [What is state in React?](#what-is-state-in-react) |
-|9  | [What are props in React?](#what-are-props-in-react) |
-|10 | [What is the difference between state and props?](#what-is-the-difference-between-state-and-props) |
-|11 | [Why should we not update the state directly?](#why-should-we-not-update-the-state-directly) |
+|1  | [React 是啥？](#what-is-react) |
+|2  | [React 的主要特性是?](#what-are-the-major-features-of-react) |
+|3  | [JSX 是啥?](#what-is-jsx) |
+|4  | [Element 和 Component 之间的差异是什么？](#what-is-the-difference-between-element-and-component) |
+|5  | [在 React 中，如何创建一个组件？](#how-to-create-components-in-react) |
+|6  | [何时在 Function 组件中使用 Class 组件？](#when-to-use-a-class-component-over-a-function-component) |
+|7  | [Pure Components 是啥？](#what-are-pure-components) |
+|8  | [在 React 中，state 是啥？](#what-is-state-in-react) |
+|9  | [在 React 中，props 是啥？](#what-are-props-in-react) |
+|10 | [state and props 之间的差异是？](#what-is-the-difference-between-state-and-props) |
+|11 | [为啥我们不应直接更新 state ？](#why-should-we-not-update-the-state-directly) |
 |12 | [What is the purpose of callback function as an argument of setState()?](#what-is-the-purpose-of-callback-function-as-an-argument-of-setstate)
-|13 | [What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling) |
-|14 | [How to bind methods or event handlers in JSX callbacks?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks) |
+|13 | [HTML 和 React 的事件句柄有什么区别?](#what-is-the-difference-between-html-and-react-event-handling) |
+|14 | [在 JSX 的回调中，如何 bind 函数或事件句柄?](#how-to-bind-methods-or-event-handlers-in-jsx-callbacks) |
 |15 | [How to pass a parameter to an event handler or callback?](#how-to-pass-a-parameter-to-an-event-handler-or-callback) |
 |16 | [What are synthetic events in React?](#what-are-synthetic-events-in-react) |
-|17 | [What is inline conditional expressions?](#what-is-inline-conditional-expressions) |
+|17 | [什么是内置条件表达式（inline conditional expressions）?](#what-is-inline-conditional-expressions) |
 |18 | [What are "key" props and what is the benefit of using them in arrays of elements?](#what-are-key-props-and-what-is-the-benefit-of-using-them-in-arrays-of-elements) |
 |19 | [What is the use of refs?](#what-is-the-use-of-refs) |
-|20 | [How to create refs?](#how-to-create-refs)
-|21 | [What are forward refs?](#what-are-forward-refs) |
+|20 | [怎么创建 refs?](#how-to-create-refs)
+|21 | [什么是 forward refs?](#what-are-forward-refs) |
 |22 | [Which is preferred option with in callback refs and findDOMNode()?](#which-is-preferred-option-with-in-callback-refs-and-finddomnode) |
 |23 | [Why are String Refs legacy?](#why-are-string-refs-legacy) |
-|24 | [What is Virtual DOM?](#what-is-virtual-dom) |
-|25 | [How Virtual DOM works?](#how-virtual-dom-works) |
-|26 | [What is the difference between Shadow DOM and Virtual DOM?](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
-|27 | [What is React Fiber?](#what-is-react-fiber) |
-|28 | [What is the main goal of React Fiber?](#what-is-the-main-goal-of-react-fiber) |
-|29 | [What are controlled components?](#what-are-controlled-components) |
-|30 | [What are uncontrolled components?](#what-are-uncontrolled-components) |
-|31 | [What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement) |
-|32 | [What is Lifting State Up in React?](#what-is-lifting-state-up-in-react) |
-|33 | [What are the different phases of component lifecycle?](#what-are-the-different-phases-of-component-lifecycle) |
-|34 | [What are the lifecycle methods of React?](#what-are-the-lifecycle-methods-of-react) |
-|35 | [What are Higher-Order components?](#what-are-higher-order-components) |
-|36 | [How to create props proxy for HOC component?](#how-to-create-props-proxy-for-hoc-component) |
-|37 | [What is context?](#what-is-context) |
-|38 | [What is children prop?](#what-is-children-prop) |
-|39 | [How to write comments in React?](#how-to-write-comments-in-react) |
-|40 | [What is the purpose of using super constructor with props argument?](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
-|41 | [What is reconciliation?](#what-is-reconciliation) |
-|42 | [How to set state with a dynamic key name?](#how-to-set-state-with-a-dynamic-key-name) |
-|43 | [What would be the common mistake of function being called every time the component renders?](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
-|44 | [Is lazy function supports named exports??](#is-lazy-function-supports-named-exports) |
-|45 | [Why React uses className over class attribute?](#why-react-uses-classname-over-class-attribute) |
-|46 | [What are fragments?](#what-are-fragments) |
-|47 | [Why fragments are better than container divs?](#why-fragments-are-better-than-container-divs) |
-|48 | [What are portals in React?](#what-are-portals-in-react) |
-|49 | [What are stateless components?](#what-are-stateless-components) |
-|50 | [What are stateful components?](#what-are-stateful-components) |
-|51 | [How to apply validation on props in React?](#how-to-apply-validation-on-props-in-react) |
-|52 | [What are the advantages of React?](#what-are-the-advantages-of-react) |
-|53 | [What are the limitations of React?](#what-are-the-limitations-of-react) |
-|54 | [What are error boundaries in React v16](#what-are-error-boundaries-in-react-v16) |
-|55 | [How error boundaries handled in React v15?](#how-error-boundaries-handled-in-react-v15) |
-|56 | [What are the recommended ways for static type checking?](#what-are-the-recommended-ways-for-static-type-checking) |
-|57 | [What is the use of react-dom package?](#what-is-the-use-of-react-dom-package) |
-|58 | [What is the purpose of render method of react-dom?](#what-is-the-purpose-of-render-method-of-react-dom) |
-|59 | [What is ReactDOMServer?](#what-is-reactdomserver) |
-|60 | [How to use InnerHtml in React?](#how-to-use-innerhtml-in-react) |
-|61 | [How to use styles in React?](#how-to-use-styles-in-react) |
-|62 | [How events are different in React?](#how-events-are-different-in-react) |
-|63 | [What will happen if you use setState in constructor?](#what-will-happen-if-you-use-setstate-in-constructor) |
-|64 | [What is the impact of indexes as keys?](#what-is-the-impact-of-indexes-as-keys) |
-|65 | [Is it good to use setState() in componentWillMount() method?](#is-it-good-to-use-setstate-in-componentwillmount-method) |
-|66 | [What will happen if you use props in initial state?](#what-will-happen-if-you-use-props-in-initial-state) |
-|67 | [How do you conditionally render components?](#how-do-you-conditionally-render-components)
-|68 | [Why we need to be careful when spreading props on DOM elements??](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
-|69 | [How you use decorators in React?](#how-you-use-decorators-in-react) |
-|70 | [How do you memoize a component?](#how-do-you-memoize-a-component) |
-|71 | [How you implement Server-Side Rendering or SSR?](#how-you-implement-server-side-rendering-or-ssr) |
-|72 | [How to enable production mode in React?](#how-to-enable-production-mode-in-react) |
-|73 | [What is CRA and its benefits?](#what-is-cra-and-its-benefits) |
-|74 | [What is the lifecycle methods order in mounting?](#what-is-the-lifecycle-methods-order-in-mounting) |
+|24 | [什么是 Virtual DOM?](#what-is-virtual-dom) |
+|25 | [Virtual DOM 是如何工作的?](#how-virtual-dom-works) |
+|26 | [Shadow DOM 和 Virtual DOM 之间的差异是什么?](#what-is-the-difference-between-shadow-dom-and-virtual-dom) |
+|27 | [React Fiber 是啥?](#what-is-react-fiber) |
+|28 | [React Fiber 的主要目标是什么?](#what-is-the-main-goal-of-react-fiber) |
+|29 | [什么是受控组件（controlled components）?](#what-are-controlled-components) |
+|30 | [什么是非受控组件（uncontrolled components）?](#what-are-uncontrolled-components) |
+|31 | [createElement 和 cloneElement 的区别是?](#what-is-the-difference-between-createelement-and-cloneelement) |
+|32 | [在 React 中，状态提升（Lifting State Up）是什么?](#what-is-lifting-state-up-in-react) |
+|33 | [组件的生命周期有哪些阶段?](#what-are-the-different-phases-of-component-lifecycle) |
+|34 | [React 的生命周期方法是什么?](#what-are-the-lifecycle-methods-of-react) |
+|35 | [什么是高阶组件（Higher-Order components）?](#what-are-higher-order-components) |
+|36 | [如何为 HOC 组件创建 props 的代理?](#how-to-create-props-proxy-for-hoc-component) |
+|37 | [什么是 context?](#what-is-context) |
+|38 | [什么是 children prop?](#what-is-children-prop) |
+|39 | [如何在 React 中写注释?](#how-to-write-comments-in-react) |
+|40 | [在 super constructor 中使用 props 的参数的目的是什么 ?](#what-is-the-purpose-of-using-super-constructor-with-props-argument) |
+|41 | [什么是 reconciliation?](#what-is-reconciliation) |
+|42 | [如何使用动态的 KEY 来设置状态?](#how-to-set-state-with-a-dynamic-key-name) |
+|43 | [每次组件渲染时，调用函数的常见错误是什么?](#what-would-be-the-common-mistake-of-function-being-called-every-time-the-component-renders) |
+|44 | [lazy function 是支持 named exports?](#is-lazy-function-supports-named-exports) |
+|45 | [为什么 React 会在 class 属性上使用 className ?](#why-react-uses-classname-over-class-attribute) |
+|46 | [什么是 fragments?](#what-are-fragments) |
+|47 | [为什么 fragments 比 div 容器更好?](#why-fragments-are-better-than-container-divs) |
+|48 | [在 React 中，什么是 portals ?](#what-are-portals-in-react) |
+|49 | [什么是无状态组件（stateless components）?](#what-are-stateless-components) |
+|50 | [什么是状态组件（stateful components）?](#what-are-stateful-components) |
+|51 | [React 在 React 中，如何添加 props 的校验?](#how-to-apply-validation-on-props-in-react) |
+|52 | [React 的优势是什么?](#what-are-the-advantages-of-react) |
+|53 | [React 的局限是什么?](#what-are-the-limitations-of-react) |
+|54 | [在 React v16 中，什么是错误边界（error boundaries）?](#what-are-error-boundaries-in-react-v16) |
+|55 | [在 React v15 中如何处理错误边界?](#how-error-boundaries-handled-in-react-v15) |
+|56 | [静态类型检查（static type checking）的推荐方法是什么?](#what-are-the-recommended-ways-for-static-type-checking) |
+|57 | [react-dom 有啥作用?](#what-is-the-use-of-react-dom-package) |
+|58 | [react-dom 的 render 方法的目的是什么?](#what-is-the-purpose-of-render-method-of-react-dom) |
+|59 | [什么是 ReactDOMServer?](#what-is-reactdomserver) |
+|60 | [在 React 中，如何使用 InnerHtml ?](#how-to-use-innerhtml-in-react) |
+|61 | [如何在 React 中使用样式（styles）?](#how-to-use-styles-in-react) |
+|62 | [在 React 中，events 有啥不同?](#how-events-are-different-in-react) |
+|63 | [如果你在构造函数中使用 setState 会发生什么?](#what-will-happen-if-you-use-setstate-in-constructor) |
+|64 | [indexes 作为 keys 有什么影响?](#what-is-the-impact-of-indexes-as-keys) |
+|65 | [在 componentWillMount() 方法中使用 setState() 是否是个好选择 ?](#is-it-good-to-use-setstate-in-componentwillmount-method) |
+|66 | [如果你在初始状态阶段使用 props 会发生什么?](#what-will-happen-if-you-use-props-in-initial-state) |
+|67 | [你怎样根据条件渲染对应的组件?](#how-do-you-conditionally-render-components)
+|68 | [为什么我们需要注意在 DOM 元素中使用 props ?](#why-we-need-to-be-careful-when-spreading-props-on-dom-elements) |
+|69 | [在 React 中，怎样使用 decorators?](#how-you-use-decorators-in-react) |
+|70 | [怎样 memoize 一个组件?](#how-do-you-memoize-a-component) |
+|71 | [你怎么实现服务端渲染或 SSR ?](#how-you-implement-server-side-rendering-or-ssr) |
+|72 | [在 React 中，怎样开启生产模式（production mode）?](#how-to-enable-production-mode-in-react) |
+|73 | [什么是 CRA 和它的优势是?](#what-is-cra-and-its-benefits) |
+|74 | [在 mount 阶段，生命周期的顺序是?](#what-is-the-lifecycle-methods-order-in-mounting) |
 |75 | [What are the lifecycle methods going to be deprecated in React v16?](#what-are-the-lifecycle-methods-going-to-be-deprecated-in-react-v16) |
-|76 | [What is the purpose of getDerivedStateFromProps() lifecycle method?](#what-is-the-purpose-of-getderivedstatefromprops-lifecycle-method) |
-|77 | [What is the purpose of getSnapshotBeforeUpdate() lifecycle method?](#what-is-the-purpose-of-getsnapshotbeforeupdate-lifecycle-method) |
+|76 | [getDerivedStateFromProps() 生命周期方法的目的是?](#what-is-the-purpose-of-getderivedstatefromprops-lifecycle-method) |
+|77 | [getSnapshotBeforeUpdate() 生命周期方法的意图是什么?](#what-is-the-purpose-of-getsnapshotbeforeupdate-lifecycle-method) |
 |78 | [Do Hooks replace render props and higher order components?](#do-hooks-replace-render-props-and-higher-order-components) |
-|79 | [What is the recommended way for naming components?](#what-is-the-recommended-way-for-naming-components) |
-|80 | [What is the recommended ordering of methods in component class?](#what-is-the-recommended-ordering-of-methods-in-component-class) |
-|81 | [What is a switching component?](#what-is-a-switching-component) |
-|82 | [Why we need to pass a function to setState()?](#why-we-need-to-pass-a-function-to-setstate) |
-|83 | [What is strict mode in React?](#what-is-strict-mode-in-react) |
-|84 | [What are React Mixins?](#what-are-react-mixins) |
-|85 | [Why is isMounted() an anti-pattern and what is the proper solution?](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
-|86 | [What are the Pointer Events supported in React?](#what-are-the-pointer-events-supported-in-react) |
-|87 | [Why should component names start with capital letter?](#why-should-component-names-start-with-capital-letter) |
-|88 | [Are custom DOM attributes supported in React v16?](#are-custom-dom-attributes-supported-in-react-v16) |
-|89 | [What is the difference between constructor and getInitialState?](#what-is-the-difference-between-constructor-and-getinitialstate) |
-|90 | [Can you force a component to re-render without calling setState?](#can-you-force-a-component-to-re-render-without-calling-setstate) |
-|91 | [What is the difference between super() and super(props) in React using ES6 classes?](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
-|92 | [How to loop inside JSX?](#how-to-loop-inside-jsx) |
-|93 | [How do you access props in attribute quotes?](#how-do-you-access-props-in-attribute-quotes) |
+|79 | [组件推荐的命名方式是?](#what-is-the-recommended-way-for-naming-components) |
+|80 | [class 组件中的方法推荐的排序方式是?](#what-is-the-recommended-ordering-of-methods-in-component-class) |
+|81 | [什么是选择组件（switching component）?](#what-is-a-switching-component) |
+|82 | [为什么我们需要通过一个函数来 执行 setState() ?](#why-we-need-to-pass-a-function-to-setstate) |
+|83 | [在 React 中，什么是严格模式（strict mode）?](#what-is-strict-mode-in-react) |
+|84 | [什么是 React Mixins?](#what-are-react-mixins) |
+|85 | [为什么 isMounted() 是反模式，正确的解决方案是什么?](#why-is-ismounted-an-anti-pattern-and-what-is-the-proper-solution) |
+|86 | [React 中支持什么指针事件?](#what-are-the-pointer-events-supported-in-react) |
+|87 | [为啥组件的名称需要以大写字母开头呢?](#why-should-component-names-start-with-capital-letter) |
+|88 | [在 React v16 中是否支持自定义 Dom 属性?](#are-custom-dom-attributes-supported-in-react-v16) |
+|89 | [constructor 和 getInitialState的区别是什么?](#what-is-the-difference-between-constructor-and-getinitialstate) |
+|90 | [你可以不调用 setState 强制重新渲染组件吗?](#can-you-force-a-component-to-re-render-without-calling-setstate) |
+|91 | [在 React 中使用的 ES6 classes 的 super() 和 super(props) 有什么不同?](#what-is-the-difference-between-super-and-superprops-in-react-using-es6-classes) |
+|92 | [怎样在 JSX 中使用 loop 语法?](#how-to-loop-inside-jsx) |
+|93 | [你是如何在引号属性中使用 props 的?](#how-do-you-access-props-in-attribute-quotes) |
 |94 | [What is React PropType array with shape?](#what-is-react-proptype-array-with-shape) |
-|95 | [How to conditionally apply class attributes?](#how-to-conditionally-apply-class-attributes) |
-|96 | [What is the difference between React and ReactDOM?](#what-is-the-difference-between-react-and-reactdom) |
-|97 | [Why ReactDOM is separated from React?](#why-reactdom-is-separated-from-react) |
-|98 | [How to use React label element?](#how-to-use-react-label-element) |
-|99 | [How to combine multiple inline style objects?](#how-to-combine-multiple-inline-style-objects) |
-|100| [How to re-render the view when the browser is resized?](#how-to-re-render-the-view-when-the-browser-is-resized)
+|95 | [如何根据条件使用 class 属性?](#how-to-conditionally-apply-class-attributes) |
+|96 | [React 和 ReactDOM 有什么区别?](#what-is-the-difference-between-react-and-reactdom) |
+|97 | [为什么 ReactDOM 和 React 分离 ?](#why-reactdom-is-separated-from-react) |
+|98 | [如何使用 React 的 label element?](#how-to-use-react-label-element) |
+|99 | [如何合并多个内联样式?](#how-to-combine-multiple-inline-style-objects) |
+|100| [当浏览器的视口变化时，React 是怎样重新渲染视图的?](#how-to-re-render-the-view-when-the-browser-is-resized)
 |101| [What is the difference between setState and replaceState methods?](#what-is-the-difference-between-setstate-and-replacestate-methods) |
 |102| [How to listen to state changes?](#how-to-listen-to-state-changes) |
 |103| [What is the recommended approach of removing an array element in react state?](#what-is-the-recommended-approach-of-removing-an-array-element-in-react-state) |
@@ -350,6 +350,8 @@ You can download the PDF and Epub version of this repository from the latest run
 1. ### What is React?
 
     React is an **open-source frontend JavaScript library** which is used for building user interfaces especially for single page applications. It is used for handling view layer for web and mobile apps. React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
+
+    React 是一个用于构建用户界面特别是单页应用的**开源的前端框架**。它也被用于构建 web 应用和移动应用的视图层。React 是由 [Jordan Walke](https://github.com/jordwalke) 创建的，他是 Facebook 的一名软件工程师。 React 最初用于 Facebook 的 New Feed 和 Instagram 。
 
 
    **[⬆ Back to Top](#table-of-contents)**
