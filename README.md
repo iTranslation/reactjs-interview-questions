@@ -159,7 +159,7 @@
 |144| [How to access current locale with React Intl](#how-to-access-current-locale-with-react-intl) |
 |145| [How to format date using React Intl?](#how-to-format-date-using-react-intl) |
 |   | **React Testing** |
-|146| [What is Shallow Renderer in React testing?](#what-is-shallow-renderer-in-react-testing) |
+|146| [在 React 测试中什么是 Shallow Renderer ?](#what-is-shallow-renderer-in-react-testing) |
 |147| [What is TestRenderer package in React?](#what-is-testrenderer-package-in-react) |
 |148| [What is the purpose of ReactTestUtils package?](#what-is-the-purpose-of-reacttestutils-package) |
 |149| [什么是 Jest?](#what-is-jest) |
@@ -219,11 +219,11 @@
 |200| [React 和 Angular 的差异是什么?](#what-is-the-difference-between-react-and-angular) |
 |201| [为什么 React tab 是不显示在 DevTools 中?](#why-react-tab-is-not-showing-up-in-devtools) |
 |202| [什么是 styled components?](#what-are-styled-components) |
-|203| [Give an example of Styled Components?](#give-an-example-of-styled-components) |
-|204| [What is Relay?](#what-is-relay) |
-|205| [How to use TypeScript in create-react-app application?](#how-to-use-typescript-in-create-react-app-application) |
+|203| [能写一个 Styled Components 的样例?](#give-an-example-of-styled-components) |
+|204| [什么是 Relay?](#what-is-relay) |
+|205| [在 create-react-app 应用中怎么使用 TypeScript ?](#how-to-use-typescript-in-create-react-app-application) |
 |   | **Miscellaneous** |
-|206| [What are the main features of reselect library?](#what-are-the-main-features-of-reselect-library) |
+|206| [reselect library 的主要功能是什么?](#what-are-the-main-features-of-reselect-library) |
 |207| [Give an example of reselect usage?](#give-an-example-of-reselect-usage) |
 |208| [在 Redux 中什么是 action ?](#what-is-an-action-in-redux) |
 |209| [Does the statics object work with ES6 classes in React?](#does-the-statics-object-work-with-es6-classes-in-react) |
@@ -231,13 +231,13 @@
 |211| [Do you need to have a particular build tool to use Redux?](#do-you-need-to-have-a-particular-build-tool-to-use-redux) |
 |212| [How Redux Form initialValues get updated from state?](#how-redux-form-initialvalues-get-updated-from-state) |
 |213| [How React PropTypes allow different type for one prop?](#how-react-proptypes-allow-different-types-for-one-prop) |
-|214| [Can I import an SVG file as react component?](#can-i-import-an-svg-file-as-react-component) |
+|214| [可以导入一个 SVG 文件作为 react 组件吗?](#can-i-import-an-svg-file-as-react-component) |
 |215| [Why are inline ref callbacks or functions not recommended?](#why-are-inline-ref-callbacks-or-functions-not-recommended)|
 |216| [What is render hijacking in React?](#what-is-render-hijacking-in-react)|
 |217| [What are HOC factory implementations?](#what-are-hoc-factory-implementations)|
 |218| [How to pass numbers to React component?](#how-to-pass-numbers-to-react-component)|
 |219| [Do I need to keep all my state into Redux? Should I ever use react internal state?](#do-i-need-to-keep-all-my-state-into-redux-should-i-ever-use-react-internal-state)|
-|220| [What is the purpose of registerServiceWorker in React?](#what-is-the-purpose-of-registerserviceworker-in-react)|
+|220| [在 React 中使用 registerServiceWorker 的目的是什么 ?](#what-is-the-purpose-of-registerserviceworker-in-react)|
 |221| [什么是 React memo function?](#what-is-react-memo-function)|
 |222| [什么是 React lazy function?](#what-is-react-lazy-function)|
 |223| [How to prevent unnecessary updates using setState?](#how-to-prevent-unnecessary-updates-using-setstate)|
@@ -246,7 +246,7 @@
 |226| [什么是 hooks?](#what-are-hooks)|
 |227| [What are the rules needs to follow for hooks?](#what-are-the-rules-needs-to-follow-for-hooks)|
 |228| [How to ensure hooks followed the rules in your project?](#how-to-ensure-hooks-followed-the-rules-in-your-project)|
-|229| [What are the differences between Flux and Redux?](#what-are-the-differences-between-flux-and-redux)|
+|229| [Flux 和 Redux 的差异是什么?](#what-are-the-differences-between-flux-and-redux)|
 |230| [React Router V4 有什么优势呢 ?](#what-are-the-benefits-of-react-router-v4)|
 |231| [Can you describe about componentDidCatch lifecycle method signature?](#can-you-describe-about-componentdidcatch-lifecycle-method-signature)|
 |232| [In which scenarios error boundaries do not catch errors?](#in-which-scenarios-error-boundaries-do-not-catch-errors)|
@@ -279,7 +279,7 @@
 |259| [Is it good to use arrow functions in render methods?](#is-it-good-to-use-arrow-functions-in-render-methods)|
 |260| [How to prevent a function from being called multiple times?](#how-to-prevent-a-function-from-being-called-multiple-times)|
 |261| [How JSX prevents Injection Attacks?](#how-jsx-prevents-injection-attacks)|
-|262| [How do you update rendered elements?](#how-do-you-update-rendered-elements)|
+|262| [你怎么更新已渲染的元素?](#how-do-you-update-rendered-elements)|
 |263| [How do you say that props are read only?](#how-do-you-say-that-props-are-read-only)|
 |264| [How do you say that state updates are merged?](#how-do-you-say-that-state-updates-are-merged)|
 |265| [How do you pass arguments to an event handler?](#how-do-you-pass-arguments-to-an-event-handler)|
@@ -294,7 +294,7 @@
 |274| [什么是 loadable components?](#what-are-loadable-components)|
 |275| [什么是 suspense component?](#what-is-suspense-component)|
 |276| [What is route based code splitting?](#what-is-route-based-code-splitting)|
-|277| [Give an example on How to use context?](#give-an-example-on-how-to-use-context)|
+|277| [能写一个怎么使用 context 的案例吗?](#give-an-example-on-how-to-use-context)|
 |278| [What is the purpose of default value in context?](#what-is-the-purpose-of-default-value-in-context)|
 |279| [How do you use contextType?](#how-do-you-use-contexttype)|
 |280| [什么是 consumer?](#what-is-a-consumer)|
@@ -306,11 +306,11 @@
 |286| [Is it possible to use react without JSX?](#is-it-possible-to-use-react-without-jsx)|
 |287| [什么是 diffing 算法?](#what-is-diffing-algorithm)|
 |288| [What are the rules covered by diffing algorithm?](#what-are-the-rules-covered-by-diffing-algorithm)|
-|289| [When do you need to use refs?](#when-do-you-need-to-use-refs)|
+|289| [你什么时候需要使用 refs 呢?](#when-do-you-need-to-use-refs)|
 |290| [Is it prop must be named as render for render props?](#is-it-prop-must-be-named-as-render-for-render-props)|
 |291| [What are the problems of using render props with pure components?](#what-are-the-problems-of-using-render-props-with-pure-components)|
 |292| [How do you create HOC using render props?](#how-do-you-create-hoc-using-render-props)|
-|293| [What is windowing technique?](#what-is-windowing-technique)|
+|293| [什么是 windowing technique?](#what-is-windowing-technique)|
 |294| [How do you print falsy values in JSX?](#how-do-you-print-falsy-values-in-jsx)|
 |295| [What is the typical use case of portals?](#what-is-the-typical-use-case-of-portals?)|
 |296| [How do you set default value for uncontrolled component?](#how-do-you-set-default-value-for-uncontrolled-component)|
@@ -320,28 +320,28 @@
 |300| [Can you list down top websites or applications using react as front end framework?](#can-you-list-down-top-websites-or-applications-using-react-as-front-end-framework)|
 |301| [Is it recommended to use CSS In JS technique in React?](#is-it-recommended-to-use-css-in-js-technique-in-react)|
 |302| [Do I need to rewrite all my class components with hooks?](#do-i-need-to-rewrite-all-my-class-components-with-hooks)|
-|303| [How to fetch data with React Hooks?](#how-to-fetch-data-with-react-hooks)|
+|303| [React Hooks 中怎么获取数据?](#how-to-fetch-data-with-react-hooks)|
 |304| [Is Hooks cover all use cases for classes?](#is-hooks-cover-all-use-cases-for-classes)|
 |305| [What is the stable release for hooks support?](#what-is-the-stable-release-for-hooks-support)|
 |306| [Why do we use array destructuring (square brackets notation) in useState?](#why-do-we-use-array-destructuring-square-brackets-notation-in-usestate)|
 |307| [What are the sources used for introducing hooks?](#what-are-the-sources-used-for-introducing-hooks)|
 |308| [How do you access imperative API of web components?](#how-do-you-access-imperative-api-of-web-components)|
-|309| [What is formik?](#what-is-formik)|
+|309| [什么是 formik?](#what-is-formik)|
 |310| [What are typical middleware choices for handling asynchronous calls in Redux?](#what-are-typical-middleware-choices-for-handling-asynchronous-calls-in-redux)|
-|311| [Do browsers understand JSX code?](#do-browsers-understand-jsx-code)|
+|311| [浏览器是怎么处理 JSX 代码的?](#do-browsers-understand-jsx-code)|
 |312| [Describe about data flow in react?](#describe-about-data-flow-in-react)|
 |313| [什么是 react scripts?](#what-is-react-scripts)|
 |314| [create react app 的主要功能是什么?](#what-are-the-features-of-create-react-app)|
 |315| [What is the purpose of renderToNodeStream method?](#what-is-the-purpose-of-rendertonodestream-method)|
 |316| [什么是 MobX?](#what-is-mobx)|
-|317| [What are the differences between Redux and MobX?](#what-are-the-differences-between-redux-and-mobx)|
+|317| [Redux 和 MobX 的差异是什么?](#what-are-the-differences-between-redux-and-mobx)|
 |318| [Should I learn ES6 before learning ReactJS?](#should-i-learn-es6-before-learning-reactjs)|
 |319| [什么是 Concurrent Rendering?](#what-is-concurrent-rendering)|
 |320| [What is the difference between async mode and concurrent mode?](#what-is-the-difference-between-async-mode-and-concurrent-mode)|
 |321| [Can I use javascript urls in react16.9?](#can-i-use-javascript-urls-in-react169)|
 |322| [What is the purpose of eslint plugin for hooks?](#what-is-the-purpose-of-eslint-plugin-for-hooks)|
 |323| [What is the difference between Imperative and Declarative in React?](#what-is-the-difference-between-imperative-and-declarative-in-react)|
-|324| [What are the benefits of using typescript with reactjs?](#what-are-the-benefits-of-using-typescript-with-reactjs)|
+|324| [在 reactjs 中使用 typescript 的优势是什么?](#what-are-the-benefits-of-using-typescript-with-reactjs)|
 
 ## Core React
 
